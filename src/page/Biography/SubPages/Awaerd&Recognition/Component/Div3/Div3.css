@@ -1,0 +1,112 @@
+
+.anr-div3-content{
+    text-align: start;
+}
+.anr-div3-content p{
+    color: var(--secoundary-color, #1E1E1E);
+text-align: justify;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.anr-div3-block-container {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.anr-div3-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anr-div3-block-img {
+  height: 250px;
+  width: 250px;
+}
+
+.anr-div3-block-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.anr-degree-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.anr-degree-university-name-left,
+.anr-degree-university-name-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.anr-degree-university-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.anr-degree-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.anr-degree-img-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.anr-degree-img-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.anr-degree-text-container-span {
+  color: var(--secoundary-color, #1e1e1e);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.anr-degree-text-container span:nth-of-type(2) {
+  margin-top: 5px;
+  color: var(--secoundary-color, #1e1e1e);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .anr-div3-block-img {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .anr-degree-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .anr-div3-block-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

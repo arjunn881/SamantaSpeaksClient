@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.left {
+  width: 20%;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+}
+.right {
+  width: 80%;
+  margin-top: 25px;
+  background: #fafafa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 80px);
+  overflow: scroll;
+ 
+}
+
+
+@media screen and (max-width: 1024px){
+  .left{
+    display: none;
+  }
+
+  .right{
+
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: scroll;
+  }
+}

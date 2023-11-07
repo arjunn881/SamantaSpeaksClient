@@ -1,0 +1,115 @@
+.awards-div2-block-container {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.awards-div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.awards-span {
+  color: var(--primary-color, #10d45c);
+  text-align: justify;
+  /* Header Text Style */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.awards-div2-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.awards-div2-block-img-container {
+  height: 250px;
+  width: 250px;
+}
+.awards-div2-block-img-container img {
+  height: 100%;
+  width: 100%;
+}
+.awards-div2-block-text-container {
+  width: 250px;
+}
+.awards-div2-block-text-container p {
+  color: var(--secoundary-color, #1e1e1e);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+
+.awards-btn {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awards-btn-green {
+  padding: 10px 30px;
+  border-radius: 12px;
+  background: var(--primary-color, #10d45c);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+}
+.awards-btn-black {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 12px;
+  background: var(--secoundary-color, #1e1e1e);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .awards-div2-block-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .awards-div2-block-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .awards-div2-block-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .awards-btn {
+    flex-direction: column;
+  }
+  .awards-btn-green {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

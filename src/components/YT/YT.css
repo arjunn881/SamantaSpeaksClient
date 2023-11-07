@@ -1,0 +1,38 @@
+.yt{
+    margin: 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.yt-div1{
+    height: 500px;
+    width: 100%;
+    
+
+}
+
+
+
+.yt-div1 img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.yt-div2{
+    height: 70px;
+    width: 112px;
+    position: absolute;
+    bottom: 43%;
+    left:45%;
+
+}
+
+.yt-div2 img{
+        height: 100%;
+        width: 100%;
+}
+
+

@@ -1,0 +1,115 @@
+.div3 {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div3-top,
+.div3-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div3-top {
+  margin-bottom: 25px;
+}
+
+.div3-block {
+  position: relative;
+}
+
+.div3-top > div,
+.div3-bottom > div {
+  margin-right: 25px;
+}
+
+.div3-img-container1 {
+  height: 300px;
+  width: 350px;
+  background-image: linear-gradient(rgba(167, 167, 167, 0.48), rgba(167, 167, 167, 0.48)), url("../../../../asset/Biography/Div1/Earlier.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div3-img-container2 {
+    height: 300px;
+    width: 350px;
+    background-image: linear-gradient(rgba(167, 167, 167, 0.48), rgba(167, 167, 167, 0.48)), url("../../../../asset/Biography/Div1/Award.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .div3-img-container3 {
+    height: 300px;
+    width: 350px;
+    background-image: linear-gradient(rgba(167, 167, 167, 0.48), rgba(167, 167, 167, 0.48)), url("../../../../asset/Biography/Div1/Bio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .div3-img-container4 {
+    height: 300px;
+    width: 350px;
+    background-image: linear-gradient(rgba(167, 167, 167, 0.48), rgba(167, 167, 167, 0.48)), url("../../../../asset/Biography/Div1/Talks.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+.div3-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background: var(--primary-color-60, rgba(16, 212, 92, 0.6));
+  color: #fff;
+  font-size: 11px;
+  font-family: Poppins;
+  font-weight: 800;
+  letter-spacing: 0.66px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 30px;
+}
+
+.div3-span {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 800;
+  letter-spacing: 1.44px;
+}
+
+
+@media screen and (max-width:1024px){
+    .div3-top,
+.div3-bottom {
+    flex-direction: column;
+}
+
+.div3-top {
+    margin-bottom: 0;
+  }
+
+  .div3-top > div,
+.div3-bottom > div {
+  margin-right: 0;
+}
+
+.div3-block{
+    margin-bottom: 25px;
+}
+
+
+
+}

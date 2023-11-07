@@ -1,0 +1,22 @@
+.anr-div4-para{
+    text-align: start;
+}
+.anr-div4-para p{
+    color: var(--secoundary-color, #1E1E1E);
+text-align: justify;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.anr-degree-text-container span{
+    color: var(--secoundary-color, #1E1E1E);
+text-align: justify;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

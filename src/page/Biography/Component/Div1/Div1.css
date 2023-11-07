@@ -1,0 +1,88 @@
+.div1{
+    margin:25px 25px 50px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div1 p{
+    color: #000;
+text-align: justify;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 11px;
+font-family: Poppins;
+letter-spacing: 0.66px;
+}
+.div1 span{
+    color: #000;
+
+font-family: Poppins;
+
+letter-spacing: 1.44px;
+}
+
+.div1-top, .div1-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.div1-top > div, .div1-bottom > div{
+    margin-right: 25px;
+}
+.div1-top{
+    margin: 25px 0 100px 0;
+}
+.div1-left, .div1-right{
+    height: 300px;
+    width: 350px;
+}
+
+
+.div1-img-container{
+    height: 100%;
+    width: 100%;
+}
+.div1-img-container img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+ @media screen and (max-width:1024px){
+    
+    .div1-top, .div1-bottom{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .div1-bottom{
+        flex-direction: column-reverse;
+    }
+    .div1-top{
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .div1-left{
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+    .div1-right{
+        margin-top: 25px;
+    }
+    .div1-img-container{
+        margin-bottom: 25px;
+    }
+    .div1-top > div, .div1-bottom > div{
+        margin-right: 0;
+    }
+
+
+    .div1-left, .div1-right{
+        height: 400px;
+        width: 250px;
+    }
+
+ }

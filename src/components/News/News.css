@@ -1,0 +1,153 @@
+.news {
+    margin: 25px 0px;
+  }
+  .msgff-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 36px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .heading2 {
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #10d45c;
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+  }
+  
+  .news-block {
+    width: 289px;
+    height: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+   
+  }
+  .news-img-container {
+    width: 289px;
+    height: 376px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .news-img-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .hover2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.49);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top:0%;
+    left:0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    
+  }
+  
+  .news-img-container:hover .hover2{
+    display: flex;
+  }
+
+  .share-con{
+  
+height: 56px;
+width: 65px;
+background: #FCFCFC;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .share-con i{
+    color: #10D45C;
+  }
+  
+  
+  
+  .news-text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  
+  .news-text-container :nth-child(1) {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  
+    color: #000000;
+  }
+  
+  .news-text-container :nth-child(2) {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #d1d1d1;
+  }
+  
+  .news-text-container :nth-child(3) {
+    height: 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #1e1e1e;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 2560px) {
+    .news-container {
+        grid-template-columns: auto auto auto auto;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .news-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .news-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+  } 
+
+  @media screen and (max-width: 480px) {
+    .news-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  

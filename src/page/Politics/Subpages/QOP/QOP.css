@@ -1,0 +1,49 @@
+.qop-table{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+
+table, th, td {
+
+    text-align: start;
+    padding: 10px;
+    border: 1px solid #5B5B5B;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border-collapse: collapse;
+  }
+
+@media screen and (max-width:1024px) {
+    table{
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    table{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    table{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    table{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    table{
+        max-width: 200px;
+    }
+}

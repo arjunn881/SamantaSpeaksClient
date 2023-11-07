@@ -1,0 +1,22 @@
+/* button {
+  border: none;
+  border-radius: 20px;
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 0.84px;
+  color: #1e1e1e;
+} */
+
+
+.biography-div4-btn {
+  color:  #1E1E1E;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.84px;
+}

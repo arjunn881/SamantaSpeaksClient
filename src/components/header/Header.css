@@ -1,0 +1,166 @@
+.header {
+  background: white;
+  height: 60px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  
+  
+}
+.header-left {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.header-left :nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1e1e1e;
+}
+.header-left :nth-child(2) {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #10d45c;
+}
+.header-right {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-icon-container {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-icon {
+  margin: 0 20px;
+}
+.header-icon-insta{
+  height: 32px;
+  width: 32px;
+}
+.header-icon-insta img{
+  height: 100%;
+  width: 100%;
+
+}
+.header-icon-i{
+  height: 25px;
+  width: 25px;
+
+}
+.header-icon i {
+  font-size: 35px;
+  cursor: pointer;
+}
+.header-icon .fa-linkedin{
+    color: #0A66C2;
+}
+.header-icon .fa-instagram{
+    background-color: radial-gradient(126.96% 126.96% at 6.47% 97.81%, #FA8F21 9%, #D82D7E 78%);
+}
+.header-icon .fa-facebook-f{
+    color:#1877F2;
+}
+.header-icon .fa-twitter{
+    color: #1D9BF0;
+}
+.header-profile {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.header-profile img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.mobilebar{
+  display: none;
+}
+
+
+.navbar{
+  width: 300px;
+  height: auto;
+  background-color:rgba(242, 242, 242, 0.68);;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  transition: all 1s ease;
+
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .header-icon-container,.header-profile{
+        display: none;
+    }
+    .mobilebar{
+      display: block;
+    }
+
+    .mobile-menu-icon{
+      cursor: pointer;
+      
+      font-size: 34px;
+     
+    }
+    .mobile-menu{
+      display: none;
+    }
+    .header-left{
+      margin-left: 15px;
+    }
+    .header-right{
+      margin-right: 15px;
+    }
+    .menu-open{
+      padding: 20px;
+      position: absolute;
+      right:0;
+      top: 60px;
+      z-index: 2;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      transition: all 50s ease-in-out;
+      background: rgba(242, 242, 242, 0.68);
+      color: var(--secoundary-color, #1e1e1e);
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.2px;
+    }
+
+
+
+
+
+    
+}
+@media screen and (min-width:600px) {
+    
+}

@@ -1,0 +1,33 @@
+.award {
+    display: flex;
+    z-index: 1;
+  }
+  .award-left {
+    width: 20%;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow: scroll;
+  }
+  .award-right {
+    width: 80%;
+    margin-top: 15px;
+    background: #fafafa;
+    border-radius: 20px;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow: scroll;
+  }
+  
+  
+  @media screen and (max-width: 1024px){
+    .award-left{
+      display: none;
+    }
+  
+    .award-right{
+      width: 100%;
+    }
+  }
+  

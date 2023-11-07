@@ -1,0 +1,30 @@
+.navbar{
+    width: 300px;
+    height: auto;
+    background-color:rgba(242, 242, 242, 0.9);
+
+    
+    display: none;
+}
+.app-download{
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: column;  
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+
+.sidebar{
+  margin: 20px;
+  margin-top: 50px;
+  
+  position: sticky;
+
+  
+}
+.Menu  {
+  padding: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.2s;
+    margin-left: 15px;
+   
+    margin-top: 10px;
+
+}
+.live{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.red-dot{
+  margin-left: 5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+
+.Menu span{
+    font-family:"Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.Menu span:hover{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 1200;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+color: #10D45C;
+
+}
+
+.app-download{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.span1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  margin-bottom: 19px;
+  color: #000000;
+}
+.imgcon-dl-app{
+  margin-bottom: 19px;
+}
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 43px;
+  background:#1E1E1E ;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+.btn1 img{
+  margin-right:11px;
+}
+.btn2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 43px;
+  background: #10D45C;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.btn2 img{
+  margin-right: 15px;
+}
+
+.span{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.03em;
+color:#FCFCFC;
+}
+
+@media screen and (max-width: 1024px){
+  .sidebar{
+    margin: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+}

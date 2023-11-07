@@ -1,0 +1,18 @@
+.ee-span {
+  margin: 25px;
+  text-align: center;
+  color: #10d45c;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+  }
+}

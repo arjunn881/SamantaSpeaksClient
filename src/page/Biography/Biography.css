@@ -1,0 +1,38 @@
+.biography {
+  display: flex;
+  
+
+}
+.biography-left {
+  width: 20%;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+}
+.biography-right {
+  
+  width: 80%;
+  margin-top: 15px;
+  background: #fafafa;
+  border-radius: 20px;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+}
+
+
+@media screen and (max-width: 1024px){
+  .biography-left{
+    display: none;
+  }
+
+  .biography-right{
+    width: 100%;
+    margin-top: 25px;
+    position: absolute;
+   z-index: -1;
+  }
+}
+
